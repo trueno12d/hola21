@@ -1,0 +1,104 @@
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+
+.logo img {
+    height: 40px;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+.search-bar input {
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+
+.menu {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+.menu a:hover {
+    color: #007bff;
+}
+
+
+.offers {
+    background-color: #f0f0f0;
+    padding: 30px;
+    text-align: center;
+}
+
+.offers h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.offer {
+    display: inline-block;
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.offer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.offer p {
+    font-size: 14px;
+    color: #555;
+}
+
+.offer .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+
